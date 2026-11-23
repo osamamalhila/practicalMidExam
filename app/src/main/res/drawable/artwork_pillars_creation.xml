@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Blue Nebular Background -->
+    <path
+        android:fillColor="#040F16"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <path
+        android:fillColor="#134074"
+        android:pathData="M0,0 Q200,100 400,0 L400,300 Q200,400 0,300 Z" />
+    <!-- Giant Gas Pillars (Eagle Nebula) -->
+    <!-- Left Pillar -->
+    <path
+        android:fillColor="#1D2A44"
+        android:pathData="M60,500 C40,380 50,220 80,120 C100,120 120,200 130,300 C140,400 120,500 100,500 Z" />
+    <path
+        android:fillColor="#3A4F7C"
+        android:pathData="M70,500 C55,400 65,240 85,130 C95,130 110,210 118,310 C125,400 110,500 95,500 Z" />
+    <!-- Center Taller Pillar -->
+    <path
+        android:fillColor="#152035"
+        android:pathData="M170,500 C150,340 160,180 190,80 C215,80 230,160 235,260 C240,380 230,500 200,500 Z" />
+    <path
+        android:fillColor="#2D3E5E"
+        android:pathData="M180,500 C165,350 172,190 195,95 C208,95 220,170 225,270 C230,380 220,500 195,500 Z" />
+    <!-- Right Finger Pillar -->
+    <path
+        android:fillColor="#1D2A44"
+        android:pathData="M270,500 C260,420 270,300 295,200 C315,200 325,270 330,340 C335,420 320,500 300,500 Z" />
+    <path
+        android:fillColor="#3A4F7C"
+        android:pathData="M280,500 C272,430 280,310 300,210 C310,210 318,275 322,345 C325,420 312,500 295,500 Z" />
+    <!-- Glowing Tips where stars are forming -->
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M80,120 A10,10 0 1,0 80,140 A10,10 0 1,0 80,120 Z M190,80 A12,12 0 1,0 190,104 A12,12 0 1,0 190,80 Z M295,200 A10,10 0 1,0 295,220 A10,10 0 1,0 295,200 Z" />
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M80,124 A6,6 0 1,0 80,136 A6,6 0 1,0 80,124 Z M190,84 A7,7 0 1,0 190,98 A7,7 0 1,0 190,84 Z M295,204 A6,6 0 1,0 295,216 A6,6 0 1,0 295,204 Z" />
+    <!-- Starfield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,30 h3 v3 h-3 Z M120,40 h2 v2 h-2 Z M250,20 h3 v3 h-3 Z M350,50 h2 v2 h-2 Z M310,110 h3 v3 h-3 Z M40,180 h2 v2 h-2 Z M370,240 h3 v3 h-3 Z M30,350 h2 v2 h-2 Z M360,400 h3 v3 h-3 Z" />
+</vector>

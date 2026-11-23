@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Sky / Background -->
+    <path
+        android:fillColor="#F3E9DC"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <path
+        android:fillColor="#E8D8C8"
+        android:pathData="M0,0 h400 v300 Q200,280 0,320 Z" />
+    <!-- Mount Fuji in Distance -->
+    <path
+        android:fillColor="#1D2A44"
+        android:pathData="M160,330 L200,250 L240,330 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M185,280 L200,250 L215,280 Q200,290 185,280 Z" />
+    <!-- Background Waves & Water -->
+    <path
+        android:fillColor="#2B4C7E"
+        android:pathData="M0,320 Q100,280 250,330 T400,310 L400,500 L0,500 Z" />
+    <path
+        android:fillColor="#1A365D"
+        android:pathData="M0,360 Q150,310 300,370 T400,350 L400,500 L0,500 Z" />
+    <!-- Traditional Wooden Boats -->
+    <path
+        android:fillColor="#C69C6D"
+        android:pathData="M80,390 Q160,370 240,410 L220,420 Q140,390 70,400 Z" />
+    <path
+        android:fillColor="#C69C6D"
+        android:pathData="M180,440 Q280,410 380,450 L360,460 Q260,430 170,450 Z" />
+    <!-- The Great Cresting Wave -->
+    <path
+        android:fillColor="#0F294A"
+        android:pathData="M0,500 C50,420 80,300 20,200 C100,200 180,280 220,380 C260,320 200,120 70,100 C200,80 320,220 400,450 L400,500 L0,500 Z" />
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M0,500 C40,430 70,320 25,220 C90,220 160,290 200,390 C240,340 190,140 75,115 C180,100 290,230 400,460 L400,500 L0,500 Z" />
+    <!-- White Foam Claws on Cresting Wave -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,100 C60,80 40,70 20,90 C40,100 50,110 70,100 Z M40,130 C30,110 10,100 0,120 C20,130 30,140 40,130 Z M90,110 C80,90 60,80 50,100 C65,115 75,120 90,110 Z M120,130 C110,110 90,100 80,120 C95,135 105,140 120,130 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,200 Q40,180 30,160 Q10,180 20,200 Z M50,220 Q70,200 60,180 Q40,200 50,220 Z" />
+</vector>

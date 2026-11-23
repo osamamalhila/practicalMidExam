@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Deep Space Background -->
+    <path
+        android:fillColor="#0A0A12"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <path
+        android:fillColor="#12101F"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <!-- Distant Cosmic Dust & Nebulae -->
+    <path
+        android:fillColor="#25122B"
+        android:pathData="M50,100 Q150,50 250,120 T380,200 L350,400 Q200,450 80,380 Z" />
+    <path
+        android:fillColor="#15203D"
+        android:pathData="M0,200 Q120,150 220,250 T400,320 L400,500 L0,500 Z" />
+    <!-- Bright Central Star with Webb 6-Pointed Diffraction Spikes -->
+    <!-- Spikes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M185,150 L195,190 L185,230 L175,190 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M145,190 L185,180 L225,190 L185,200 Z" />
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M150,155 L185,185 L220,225 L185,195 Z" />
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M220,155 L185,195 L150,225 L185,185 Z" />
+    <!-- Star Core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M185,175 A15,15 0 1,0 185,205 A15,15 0 1,0 185,175 Z" />
+    <path
+        android:fillColor="#93C5FD"
+        android:pathData="M185,180 A10,10 0 1,0 185,200 A10,10 0 1,0 185,180 Z" />
+    <!-- Gravitational Lensing Arcs & Curved Distorted Galaxies -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M120,130 Q200,100 280,140"
+        android:strokeColor="#F97316"
+        android:strokeWidth="3" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M100,240 Q190,300 290,250"
+        android:strokeColor="#FB923C"
+        android:strokeWidth="3" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M220,280 Q280,290 320,270"
+        android:strokeColor="#F43F5E"
+        android:strokeWidth="2.5" />
+    <!-- Red & Orange Glowing Galaxies -->
+    <path
+        android:fillColor="#EA580C"
+        android:pathData="M90,80 Q110,70 120,90 T90,80 Z M280,350 Q310,330 315,360 T280,350 Z M70,360 Q90,350 95,370 T70,360 Z M330,100 Q350,90 355,110 T330,100 Z" />
+    <path
+        android:fillColor="#FB2C36"
+        android:pathData="M240,80 Q255,75 260,90 T240,80 Z M140,410 Q160,400 165,420 T140,410 Z" />
+    <!-- Scattered Star Field -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,40 h2 v2 h-2 Z M80,160 h2 v2 h-2 Z M60,280 h3 v3 h-3 Z M120,320 h2 v2 h-2 Z M230,40 h3 v3 h-3 Z M310,40 h2 v2 h-2 Z M360,180 h3 v3 h-3 Z M350,290 h2 v2 h-2 Z M380,440 h3 v3 h-3 Z M40,460 h2 v2 h-2 Z M260,460 h3 v3 h-3 Z M180,470 h2 v2 h-2 Z M290,210 h2 v2 h-2 Z M150,260 h2 v2 h-2 Z" />
+</vector>

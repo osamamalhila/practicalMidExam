@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Deep Blue Night Sky -->
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <path
+        android:fillColor="#1B263B"
+        android:pathData="M0,0 h400 v350 Q200,380 0,330 Z" />
+    <!-- Swirling Sky Currents -->
+    <path
+        android:fillColor="#415A77"
+        android:pathData="M50,80 Q120,30 200,80 T350,70 Q400,120 300,140 T100,120 Z" />
+    <path
+        android:fillColor="#778DA9"
+        android:pathData="M80,100 Q150,60 220,100 T330,90 Q370,130 280,150 T120,130 Z" />
+    <path
+        android:fillColor="#E0E1DD"
+        android:pathData="M110,110 Q160,80 230,110 T300,100 Z" />
+    <!-- Glowing Crescent Moon -->
+    <path
+        android:fillColor="#F4A261"
+        android:pathData="M330,60 A35,35 0 1,0 370,100 A40,40 0 1,1 330,60 Z" />
+    <path
+        android:fillColor="#E9C46A"
+        android:pathData="M335,65 A30,30 0 1,0 365,95 A35,35 0 1,1 335,65 Z" />
+    <!-- Swirling Stars -->
+    <path
+        android:fillColor="#E9C46A"
+        android:pathData="M50,50 A15,15 0 1,0 50,80 A15,15 0 1,0 50,50 Z M150,40 A12,12 0 1,0 150,64 A12,12 0 1,0 150,40 Z M270,45 A14,14 0 1,0 270,73 A14,14 0 1,0 270,45 Z M220,160 A16,16 0 1,0 220,192 A16,16 0 1,0 220,160 Z" />
+    <!-- Rolling Hills -->
+    <path
+        android:fillColor="#1D3557"
+        android:pathData="M0,320 Q120,270 240,320 T400,300 L400,500 L0,500 Z" />
+    <path
+        android:fillColor="#2A9D8F"
+        android:pathData="M0,370 Q150,330 300,380 T400,360 L400,500 L0,500 Z" />
+    <!-- Village Silhouettes -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M150,370 L150,340 L160,330 L170,340 L170,370 Z M200,380 L200,330 L205,310 L210,330 L210,380 Z M240,375 L240,350 L255,340 L270,350 L270,375 Z" />
+    <!-- Cypress Tree Silhouette in Foreground -->
+    <path
+        android:fillColor="#0A1108"
+        android:pathData="M40,500 C10,400 20,250 50,150 C70,250 90,400 80,500 Z" />
+    <path
+        android:fillColor="#1C2819"
+        android:pathData="M45,500 C25,410 32,270 52,180 C68,270 78,410 72,500 Z" />
+</vector>

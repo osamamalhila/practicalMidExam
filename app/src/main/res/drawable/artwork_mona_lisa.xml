@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Background / Landscape -->
+    <path
+        android:fillColor="#2D3B2D"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <path
+        android:fillColor="#4A5D4E"
+        android:pathData="M0,200 Q100,160 200,220 T400,180 L400,500 L0,500 Z" />
+    <path
+        android:fillColor="#687A64"
+        android:pathData="M0,250 Q150,200 300,270 T400,240 L400,500 L0,500 Z" />
+    <path
+        android:fillColor="#5A4A3A"
+        android:pathData="M50,300 Q180,260 250,320 L400,300 L400,500 L0,500 Z" />
+    <!-- Mona Lisa Silhouette & Robes -->
+    <path
+        android:fillColor="#1A1815"
+        android:pathData="M110,500 C100,380 130,220 200,220 C270,220 300,380 290,500 Z" />
+    <path
+        android:fillColor="#2C241D"
+        android:pathData="M130,500 C120,400 145,260 200,260 C255,260 280,400 270,500 Z" />
+    <!-- Face & Neck -->
+    <path
+        android:fillColor="#E3C29E"
+        android:pathData="M170,160 C170,120 180,100 200,100 C220,100 230,120 230,160 C230,195 218,215 200,215 C182,215 170,195 170,160 Z" />
+    <!-- Hair -->
+    <path
+        android:fillColor="#2B1E16"
+        android:pathData="M165,140 C160,100 175,85 200,85 C225,85 240,100 235,140 C238,180 245,230 245,260 C230,260 230,200 230,170 C225,130 175,130 170,170 C170,200 170,260 155,260 C155,230 162,180 165,140 Z" />
+    <!-- Hands folded -->
+    <path
+        android:fillColor="#DBB690"
+        android:pathData="M140,430 Q200,410 260,430 Q250,470 140,470 Z" />
+    <!-- Veil overlay -->
+    <path
+        android:fillColor="#30FFFFFF"
+        android:pathData="M160,95 Q200,85 240,95 Q245,140 240,180 Q200,170 160,180 Z" />
+    <!-- Famous enigmatic smile accent -->
+    <path
+        android:fillColor="#8B5E3C"
+        android:pathData="M192,185 Q200,190 208,185"
+        android:strokeColor="#6A4023"
+        android:strokeWidth="2" />
+</vector>

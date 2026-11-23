@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ArtSpace</string>
+    <string name="btn_previous">Previous</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_visit_website">Visit Website</string>
+    <string name="btn_return">Back to Gallery</string>
+    <string name="artwork_details">Artwork Details</string>
+    <string name="tap_to_view_details">Tap image to view full details</string>
+    <string name="artist_label">Artist</string>
+    <string name="year_label">Creation Year</string>
+    <string name="description_label">About the Artwork</string>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/app_background"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="24dp">
+
+        <!-- Artwork Position Counter TextView (Requirement 1: e.g., 1 / 6) -->
+        <TextView
+            android:id="@+id/tv_artwork_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="1 / 6"
+            android:textColor="#2D2825"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Artwork Framed Canvas CardView (Requirement 1 & Requirement 4) -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_artwork"
+            android:layout_width="0dp"
+            android:layout_height="380dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_artwork_position">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="24dp">
+
+                <ImageView
+                    android:id="@+id/iv_artwork"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="Selected Artwork Image"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/artwork_stellar_deaths" />
+
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Artwork Title and Artist Info Card (Requirement 1) -->
+        <LinearLayout
+            android:id="@+id/layout_artwork_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/info_card_bg"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_artwork">
+
+            <!-- Artwork Title TextView -->
+            <TextView
+                android:id="@+id/tv_artwork_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="Deep Field Stellar Deaths"
+                android:textColor="@color/text_title"
+                android:textSize="26sp" />
+
+            <!-- Artist Name and Creation Year TextView -->
+            <TextView
+                android:id="@+id/tv_artist_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Smacs Carin  (2021)"
+                android:textColor="@color/text_subtitle"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <!-- Navigation Buttons (Requirement 1 & 2: Previous and Next) -->
+        <LinearLayout
+            android:id="@+id/layout_buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_artwork_info"
+            app:layout_constraintVertical_bias="1.0">
+
+            <!-- Previous Button -->
+            <android.widget.Button
+                android:id="@+id/btn_previous"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_selector"
+                android:enabled="false"
+                android:text="@string/btn_previous"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_text_color_selector"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Next Button -->
+            <android.widget.Button
+                android:id="@+id/btn_next"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_selector"
+                android:enabled="true"
+                android:text="@string/btn_next"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_text_color_selector"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

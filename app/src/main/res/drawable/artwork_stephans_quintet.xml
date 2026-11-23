@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Deep Space Background -->
+    <path
+        android:fillColor="#0B0D17"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <path
+        android:fillColor="#151A2E"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <!-- Galaxy 1 (Top Left Spiral) -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M120,110 A40,25 45 1,0 120,160 A40,25 45 1,0 120,110 Z" />
+    <path
+        android:fillColor="#93C5FD"
+        android:pathData="M120,125 A20,12 45 1,0 120,145 A20,12 45 1,0 120,125 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,130 A8,5 45 1,0 120,140 A8,5 45 1,0 120,130 Z" />
+    <!-- Galaxy 2 (Top Center Collision) -->
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M220,140 A50,30 -30 1,0 220,200 A50,30 -30 1,0 220,140 Z" />
+    <path
+        android:fillColor="#FDBA74"
+        android:pathData="M220,155 A25,15 -30 1,0 220,185 A25,15 -30 1,0 220,155 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M220,163 A10,6 -30 1,0 220,177 A10,6 -30 1,0 220,163 Z" />
+    <!-- Galaxy 3 (Right Spiral Interaction) -->
+    <path
+        android:fillColor="#EAB308"
+        android:pathData="M280,220 A45,28 15 1,0 280,276 A45,28 15 1,0 280,220 Z" />
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M280,235 A22,14 15 1,0 280,261 A22,14 15 1,0 280,235 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M280,242 A9,5 15 1,0 280,254 A9,5 15 1,0 280,242 Z" />
+    <!-- Galaxy 4 (Center Bottom Active Core) -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M180,270 A55,35 60 1,0 180,340 A55,35 60 1,0 180,270 Z" />
+    <path
+        android:fillColor="#FCA5A5"
+        android:pathData="M180,288 A28,18 60 1,0 180,322 A28,18 60 1,0 180,288 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M180,297 A12,7 60 1,0 180,313 A12,7 60 1,0 180,297 Z" />
+    <!-- Galaxy 5 (Bottom Left Foreground Spiral) -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M100,340 A60,35 -15 1,0 100,410 A60,35 -15 1,0 100,340 Z" />
+    <path
+        android:fillColor="#67E8F9"
+        android:pathData="M100,358 A30,18 -15 1,0 100,392 A30,18 -15 1,0 100,358 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,368 A12,7 -15 1,0 100,382 A12,7 -15 1,0 100,368 Z" />
+    <!-- Intergalactic Shockwave Ribbons connecting them -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M130,150 Q180,160 220,170 T280,240 T180,300"
+        android:strokeColor="#10B981"
+        android:strokeWidth="2.5" />
+    <!-- Foreground Star Field -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,50 h3 v3 h-3 Z M350,80 h3 v3 h-3 Z M50,440 h3 v3 h-3 Z M340,420 h3 v3 h-3 Z M30,220 h2 v2 h-2 Z M370,290 h2 v2 h-2 Z" />
+</vector>

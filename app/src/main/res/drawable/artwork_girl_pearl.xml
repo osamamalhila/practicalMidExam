@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Dark Mysterious Background -->
+    <path
+        android:fillColor="#0D1117"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <path
+        android:fillColor="#161B22"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <!-- Yellow Brown Garment / Jacket -->
+    <path
+        android:fillColor="#C68B59"
+        android:pathData="M100,500 C90,400 120,290 200,290 C280,290 310,400 300,500 Z" />
+    <path
+        android:fillColor="#A16B38"
+        android:pathData="M120,500 C110,420 135,310 200,310 C265,310 290,420 280,500 Z" />
+    <!-- White Collar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M170,275 Q200,295 230,275 Q220,310 180,310 Z" />
+    <!-- Blue & Yellow Turban Headband -->
+    <!-- Blue Turban -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M150,140 C140,80 180,60 220,60 C260,60 270,110 260,150 C240,120 170,120 150,140 Z" />
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M160,130 C155,90 185,70 215,70 C245,70 255,105 250,135 Z" />
+    <!-- Yellow Scarf Trailing Down -->
+    <path
+        android:fillColor="#EAB308"
+        android:pathData="M230,120 C250,140 270,180 260,280 C245,280 235,200 225,140 Z" />
+    <!-- Turned Head / Face -->
+    <path
+        android:fillColor="#FED7AA"
+        android:pathData="M160,200 C150,150 170,130 210,130 C250,130 260,170 250,220 C240,260 210,275 180,260 C160,245 155,225 160,200 Z" />
+    <!-- Large Pearl Earring (Glowing Icon) -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M175,250 A12,14 0 1,0 175,278 A12,14 0 1,0 175,250 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M171,254 A4,5 0 1,0 171,264 A4,5 0 1,0 171,254 Z" />
+    <!-- Expressive Eye -->
+    <path
+        android:fillColor="#431407"
+        android:pathData="M205,185 A6,6 0 1,0 205,197 A6,6 0 1,0 205,185 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M207,187 A2,2 0 1,0 207,191 A2,2 0 1,0 207,187 Z" />
+    <!-- Soft Red Lips parted -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M210,230 Q220,235 230,230 Q220,242 210,230 Z" />
+</vector>

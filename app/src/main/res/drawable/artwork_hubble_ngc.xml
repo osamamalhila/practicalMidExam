@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Starry Night Sky Background -->
+    <path
+        android:fillColor="#0D0E15"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <path
+        android:fillColor="#151724"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <!-- Pink/Red Nebula Dust Clouds at Top -->
+    <path
+        android:fillColor="#9F1239"
+        android:pathData="M60,80 Q100,50 140,90 T220,110 T300,70 Q350,120 360,180 Q300,200 240,160 Q180,210 100,160 Z" />
+    <path
+        android:fillColor="#E11D48"
+        android:pathData="M75,90 Q110,65 145,95 T215,115 T285,85 Q325,125 335,170 Q285,185 235,150 Q185,195 115,150 Z" />
+    <path
+        android:fillColor="#FB7185"
+        android:pathData="M90,100 Q120,80 150,100 T210,120 T270,100 Q300,130 310,160 Q270,170 230,140 Q190,180 130,140 Z" />
+    <!-- Lower Nebular Cloud Clusters -->
+    <path
+        android:fillColor="#881337"
+        android:pathData="M240,240 Q280,220 320,250 T360,320 L220,350 Z" />
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M255,250 Q290,235 320,260 T350,310 L240,335 Z" />
+    <!-- Bright Star with 4 Diffraction Spikes at Lower Left -->
+    <!-- Spikes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,270 L132,325 L120,380 L108,325 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,325 L120,313 L175,325 L120,337 Z" />
+    <!-- Core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,312 A13,13 0 1,0 120,338 A13,13 0 1,0 120,312 Z" />
+    <path
+        android:fillColor="#E0F2FE"
+        android:pathData="M120,317 A8,8 0 1,0 120,333 A8,8 0 1,0 120,317 Z" />
+    <!-- Distant Galaxies -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M110,230 A10,6 30 1,0 110,242 A10,6 30 1,0 110,230 Z M170,280 A8,5 -20 1,0 170,290 A8,5 -20 1,0 170,280 Z M170,350 A12,7 40 1,0 170,364 A12,7 40 1,0 170,350 Z M160,430 A15,8 10 1,0 160,446 A15,8 10 1,0 160,430 Z" />
+    <!-- Dense Starfield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,30 h2 v2 h-2 Z M60,50 h3 v3 h-3 Z M180,30 h2 v2 h-2 Z M240,40 h3 v3 h-3 Z M310,20 h2 v2 h-2 Z M370,50 h3 v3 h-3 Z M30,120 h2 v2 h-2 Z M380,140 h3 v3 h-3 Z M30,220 h2 v2 h-2 Z M380,240 h3 v3 h-3 Z M260,380 h2 v2 h-2 Z M340,390 h3 v3 h-3 Z M40,420 h2 v2 h-2 Z M220,440 h3 v3 h-3 Z M300,470 h2 v2 h-2 Z M370,450 h3 v3 h-3 Z M90,480 h2 v2 h-2 Z" />
+</vector>

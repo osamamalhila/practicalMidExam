@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Surreal Desert & Golden Sunset Sky -->
+    <path
+        android:fillColor="#E76F51"
+        android:pathData="M0,0 h400 v250 h-400 Z" />
+    <path
+        android:fillColor="#F4A261"
+        android:pathData="M0,80 Q200,40 400,100 L400,220 L0,220 Z" />
+    <path
+        android:fillColor="#E9C46A"
+        android:pathData="M0,150 Q200,120 400,160 L400,250 L0,250 Z" />
+    <!-- Distant Sea & Cliffs -->
+    <path
+        android:fillColor="#2A9D8F"
+        android:pathData="M0,220 h400 v60 h-400 Z" />
+    <path
+        android:fillColor="#E7C169"
+        android:pathData="M280,180 L400,160 L400,280 L280,280 Z" />
+    <!-- Desert Floor -->
+    <path
+        android:fillColor="#D4A373"
+        android:pathData="M0,280 h400 v220 h-400 Z" />
+    <path
+        android:fillColor="#CCD5AE"
+        android:pathData="M0,320 Q200,280 400,340 L400,500 L0,500 Z" />
+    <!-- Wooden Block / Pedestal on Left -->
+    <path
+        android:fillColor="#6B4226"
+        android:pathData="M0,330 L160,330 L180,480 L0,500 Z" />
+    <path
+        android:fillColor="#8C5632"
+        android:pathData="M0,330 L160,330 L140,360 L0,360 Z" />
+    <!-- Dead Olive Tree Branch -->
+    <path
+        android:fillColor="#4A312C"
+        android:pathData="M40,330 L40,240 L50,240 L50,330 Z M45,260 L90,230 L95,238 L50,270 Z" />
+    <!-- Melting Watch 1 (Draped on Pedestal) -->
+    <path
+        android:fillColor="#D1D5DB"
+        android:pathData="M80,320 Q120,310 130,340 Q135,380 90,370 Q75,340 80,320 Z" />
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M85,325 Q115,317 122,342 Q127,372 92,365 Q80,342 85,325 Z" />
+    <path
+        android:fillColor="#1F2937"
+        android:pathData="M95,335 L105,345 M100,340 L110,335"
+        android:strokeColor="#1F2937"
+        android:strokeWidth="2" />
+    <!-- Melting Watch 2 (Draped on Tree Branch) -->
+    <path
+        android:fillColor="#93C5FD"
+        android:pathData="M70,225 Q105,220 110,245 Q100,270 75,260 Q65,240 70,225 Z" />
+    <path
+        android:fillColor="#BFDBFE"
+        android:pathData="M73,228 Q100,224 105,244 Q97,264 78,256 Q69,240 73,228 Z" />
+    <!-- Strange Melting Fleshy Creature in Center Ground -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M180,400 Q260,370 320,410 Q300,460 210,450 Q160,430 180,400 Z" />
+    <!-- Melting Watch 3 (Draped over central creature) -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M210,390 Q250,380 260,410 Q250,440 215,430 Q200,405 210,390 Z" />
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M214,394 Q245,385 253,410 Q245,433 218,425 Q206,406 214,394 Z" />
+</vector>

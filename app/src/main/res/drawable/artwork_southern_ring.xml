@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Dark Space -->
+    <path
+        android:fillColor="#090A0F"
+        android:pathData="M0,0 h400 v500 h-400 Z" />
+    <!-- Outer Expansion Shell -->
+    <path
+        android:fillColor="#1E1B4B"
+        android:pathData="M200,100 C300,100 350,180 350,250 C350,320 300,400 200,400 C100,400 50,320 50,250 C50,180 100,100 200,100 Z" />
+    <!-- Glowing Orange Nebula Ring -->
+    <path
+        android:fillColor="#C2410C"
+        android:pathData="M200,130 C280,130 320,190 320,250 C320,310 280,370 200,370 C120,370 80,310 80,250 C80,190 120,130 200,130 Z" />
+    <path
+        android:fillColor="#EA580C"
+        android:pathData="M200,145 C265,145 300,195 300,250 C300,305 265,355 200,355 C135,355 100,305 100,250 C100,195 135,145 200,145 Z" />
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M200,160 C250,160 280,200 280,250 C280,300 250,340 200,340 C150,340 120,300 120,250 C120,200 150,160 200,160 Z" />
+    <!-- Inner Cyan Gas Cavity -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M200,180 C235,180 260,210 260,250 C260,290 235,320 200,320 C165,320 140,290 140,250 C140,210 165,180 200,180 Z" />
+    <path
+        android:fillColor="#67E8F9"
+        android:pathData="M200,200 C220,200 240,220 240,250 C240,280 220,300 200,300 C180,300 160,280 160,250 C160,220 180,200 200,200 Z" />
+    <!-- Central Binary Stars -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M195,245 L197,252 L204,254 L197,256 L195,263 L193,256 L186,254 L193,252 Z" />
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M208,248 A4,4 0 1,0 208,256 A4,4 0 1,0 208,248 Z" />
+    <!-- Outer Stars -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,80 h3 v3 h-3 Z M330,70 h2 v2 h-2 Z M80,420 h3 v3 h-3 Z M320,430 h2 v2 h-2 Z M20,250 h3 v3 h-3 Z M370,250 h2 v2 h-2 Z" />
+</vector>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Fiery Orange and Yellow Sky -->
+    <path
+        android:fillColor="#E76F51"
+        android:pathData="M0,0 h400 v250 h-400 Z" />
+    <path
+        android:fillColor="#F4A261"
+        android:pathData="M0,40 Q100,10 200,60 T400,30 L400,200 L0,200 Z" />
+    <path
+        android:fillColor="#E9C46A"
+        android:pathData="M0,90 Q150,50 300,110 T400,80 L400,180 L0,180 Z" />
+    <path
+        android:fillColor="#D62828"
+        android:pathData="M0,0 Q200,80 400,10 L400,100 Q200,160 0,90 Z" />
+    <!-- Dark Blue Fjord & Landscape -->
+    <path
+        android:fillColor="#003049"
+        android:pathData="M0,200 Q200,160 400,220 L400,350 L0,350 Z" />
+    <path
+        android:fillColor="#1D3557"
+        android:pathData="M100,220 Q250,200 400,250 L400,330 L100,300 Z" />
+    <!-- Bridge / Pier diagonally across -->
+    <path
+        android:fillColor="#8D5B4C"
+        android:pathData="M0,320 L400,450 L400,500 L0,500 Z" />
+    <path
+        android:fillColor="#5C3A21"
+        android:pathData="M0,320 L400,450"
+        android:strokeColor="#3A2312"
+        android:strokeWidth="8" />
+    <path
+        android:fillColor="#3A2312"
+        android:pathData="M0,360 L400,490"
+        android:strokeColor="#24150A"
+        android:strokeWidth="6" />
+    <!-- Background Walking Figures -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M30,310 L30,350 M32,320 L40,335 M24,320 L16,335 M30,350 L22,370 M30,350 L38,370"
+        android:strokeColor="#111111"
+        android:strokeWidth="4" />
+    <path
+        android:fillColor="#111111"
+        android:pathData="M60,320 L60,360 M62,330 L70,345 M54,330 L46,345 M60,360 L52,380 M60,360 L68,380"
+        android:strokeColor="#111111"
+        android:strokeWidth="4" />
+    <!-- Screaming Central Figure -->
+    <!-- Body -->
+    <path
+        android:fillColor="#1C1C24"
+        android:pathData="M160,500 C150,420 180,360 210,360 C240,360 270,420 260,500 Z" />
+    <!-- Hands holding head -->
+    <path
+        android:fillColor="#D8C8B8"
+        android:pathData="M175,320 C165,340 160,370 185,380 M245,320 C255,340 260,370 235,380"
+        android:strokeColor="#C4B09C"
+        android:strokeWidth="10" />
+    <!-- Agonized Oval Head -->
+    <path
+        android:fillColor="#DFD0BD"
+        android:pathData="M185,310 C180,260 190,250 210,250 C230,250 240,260 235,310 C230,350 225,355 210,355 C195,355 190,350 185,310 Z" />
+    <!-- Eyes -->
+    <path
+        android:fillColor="#222222"
+        android:pathData="M193,285 A6,6 0 1,0 193,297 A6,6 0 1,0 193,285 Z M227,285 A6,6 0 1,0 227,297 A6,6 0 1,0 227,285 Z" />
+    <!-- Open Screaming Mouth -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M204,315 A8,14 0 1,0 216,315 A8,14 0 1,0 204,315 Z" />
+</vector>

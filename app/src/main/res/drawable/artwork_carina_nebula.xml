@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="500dp"
+    android:viewportWidth="400"
+    android:viewportHeight="500">
+    <!-- Blue/Purple Upper Atmosphere -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M0,0 h400 v250 h-400 Z" />
+    <path
+        android:fillColor="#1C2541"
+        android:pathData="M0,0 h400 v300 L0,220 Z" />
+    <!-- Bright Upper Blue Stars -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M100,50 L104,65 L119,69 L104,73 L100,88 L96,73 L81,69 L96,65 Z M300,70 L303,80 L313,83 L303,86 L300,96 L297,86 L287,83 L297,80 Z" />
+    <!-- Golden Cosmic Dust Mountain Ridge / Cliffs -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M0,220 Q60,180 120,240 T240,200 T360,260 T400,210 L400,500 L0,500 Z" />
+    <path
+        android:fillColor="#9A3412"
+        android:pathData="M0,250 Q80,200 160,260 T300,230 T400,280 L400,500 L0,500 Z" />
+    <path
+        android:fillColor="#C2410C"
+        android:pathData="M0,280 Q70,240 140,300 T280,270 T400,320 L400,500 L0,500 Z" />
+    <path
+        android:fillColor="#EA580C"
+        android:pathData="M0,320 Q90,280 180,340 T320,310 T400,360 L400,500 L0,500 Z" />
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M0,370 Q110,340 220,390 T400,380 L400,500 L0,500 Z" />
+    <!-- Glowing Nebular Pillars & Peaks -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M110,240 Q120,200 125,245 Z M230,200 Q240,160 245,205 Z M355,260 Q365,220 370,265 Z" />
+    <!-- Starfield overlay -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,30 h3 v3 h-3 Z M180,40 h2 v2 h-2 Z M250,30 h3 v3 h-3 Z M350,40 h2 v2 h-2 Z M80,120 h2 v2 h-2 Z M150,110 h3 v3 h-3 Z M220,130 h2 v2 h-2 Z M320,140 h3 v3 h-3 Z M380,110 h2 v2 h-2 Z" />
+</vector>
